@@ -1,10 +1,46 @@
-pipeline {
-    agent any
-    stages {
-        stage('Run') {
-            steps {
-                sh 'echo Hello World'
-            }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bleach</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 40px;
         }
-    }
-}
+        h1 {
+            color: orange;
+        }
+        .card {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bleach</h1>
+
+    <div class="card">
+        <h2>About the Anime</h2>
+        <p>
+            Bleach is a popular Japanese anime series about a high school student,
+            Ichigo Kurosaki, who gains the powers of a Soul Reaper and protects
+            the world from evil spirits known as Hollows.
+        </p>
+
+        <h3>Main Character</h3>
+        <p>Ichigo Kurosaki</p>
+
+        <h3>Genre</h3>
+        <p>Action, Adventure, Supernatural</p>
+    </div>
+
+</body>
+</html>
+
